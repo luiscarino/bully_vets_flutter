@@ -41,19 +41,24 @@ class _VetListWidgetState extends State<VetListWidget> {
   }
 
   Widget _buildBody(BuildContext context) {
-    // TODO get sapshot from Cloud Firestore
-    return _buildList(context, dummySnapshot);
-  }
-
-  Widget _buildList(BuildContext context, List<Map> snapshot) {
-    return new ListView(
-      padding: const EdgeInsets.only(top: 20.0),
-      children: snapshot.map((data) => _buildListItem(context, data)).toList(),
+    return StreamBuilder<QuerySnapshot>(
+      stream: Firestore.instance.collection("vets").snapshots(),
+      builder: (context, snapshot) {
+        if(!snapshot.hasData) return LinearProgressIndicator();
+        return _buildList(context, snapshot.data.documents);
+      },
     );
   }
 
-  Widget _buildListItem(BuildContext context, Map data) {
-    final model = VetDirectory.fromMap(data);
+  Widget _buildList(BuildContext context, List<DocumentSnapshot> documents) {
+    return new ListView(
+      padding: const EdgeInsets.only(top: 20.0),
+      children: documents.map((document) => _buildListItem(context, document)).toList(),
+    );
+  }
+
+  Widget _buildListItem(BuildContext context, DocumentSnapshot document) {
+    final model = VetDirectory.fromSnapshot(document);
 
     return new Container(
         child: ListTile(
@@ -114,7 +119,7 @@ class VetDirectory {
         city = map['City'],
         practiceName = map['Practice Name'],
         veterinarian = map['Veterinarians'],
-        phoneNumber = map['Phone #'];
+        phoneNumber = map['Phone'];
 
   VetDirectory.fromSnapshot(DocumentSnapshot documentSnapshot)
       : this.fromMap(documentSnapshot.data,
