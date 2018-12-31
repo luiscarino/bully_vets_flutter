@@ -1,3 +1,4 @@
+import 'package:bully_vets_app/vet.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
@@ -25,7 +26,7 @@ class VetListWidget extends StatefulWidget {
 }
 
 class _VetListWidgetState extends State<VetListWidget> {
-  final Set<VetDirectory> _saved = new Set<VetDirectory>();
+  final Set<Veterinarian> _saved = new Set<Veterinarian>();
   final TextStyle _biggerFont = const TextStyle(fontSize: 18.0);
 
   @override
@@ -58,7 +59,7 @@ class _VetListWidgetState extends State<VetListWidget> {
   }
 
   Widget _buildListItem(BuildContext context, DocumentSnapshot document) {
-    final model = VetDirectory.fromSnapshot(document);
+    final model = Veterinarian.fromSnapshot(document);
 
     return new Container(
         child: ListTile(
@@ -84,7 +85,7 @@ class _VetListWidgetState extends State<VetListWidget> {
   void _pushSaved() {
     Navigator.of(context)
         .push(new MaterialPageRoute(builder: (BuildContext context) {
-      final Iterable<ListTile> tiles = _saved.map((VetDirectory model) {
+      final Iterable<ListTile> tiles = _saved.map((Veterinarian model) {
         return new ListTile(
           title: new Text(model.veterinarian, style: _biggerFont),
         );
@@ -104,27 +105,4 @@ class _VetListWidgetState extends State<VetListWidget> {
   }
 }
 
-class VetDirectory {
-  final String state;
-  final String city;
-  final String practiceName;
-  final String veterinarian;
-  final String phoneNumber;
 
-  final DocumentReference documentReference;
-
-  VetDirectory.fromMap(Map<String, dynamic> map, {this.documentReference})
-      : assert(map['Veterinarians'] != null),
-        state = map['State'],
-        city = map['City'],
-        practiceName = map['Practice Name'],
-        veterinarian = map['Veterinarians'],
-        phoneNumber = map['Phone'];
-
-  VetDirectory.fromSnapshot(DocumentSnapshot documentSnapshot)
-      : this.fromMap(documentSnapshot.data,
-            documentReference: documentSnapshot.reference);
-
-  @override
-  String toString() => "VetDirectory<$practiceName>";
-}
