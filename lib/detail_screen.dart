@@ -1,5 +1,6 @@
 import 'package:bully_vets_app/vet.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class DetailScreenWidget extends StatelessWidget {
   final Veterinarian model;
@@ -35,11 +36,14 @@ List<Widget> _buildCardInformation(Veterinarian model) {
       leading: Icon(
         Icons.contact_phone,
       ),
+      onTap: () {
+        launch("tel:"+model.phoneNumber);
+      },
     ),
     Divider(),
     ListTile(
       title:
-          Text("${model.city}", style: TextStyle(fontWeight: FontWeight.w500)),
+          Text("${model.city}, ${model.state}", style: TextStyle(fontWeight: FontWeight.w500)),
       leading: Icon(
         Icons.location_city,
       ),
@@ -61,19 +65,20 @@ Widget _buildHeader(Veterinarian model) {
       Align(
         alignment: AlignmentDirectional.bottomCenter,
         child: Container(
-        decoration: BoxDecoration(
-          color: Colors.black45,
-        ),
-        child: Text(
-          model.veterinarian,
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
+          decoration: BoxDecoration(
+            color: Colors.black45,
+          ),
+          child: Text(
+            model.veterinarian,
+            style: TextStyle(
+              fontSize: 20.0,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
           ),
         ),
-      ),
-      )],
+      )
+    ],
   );
 }
 
