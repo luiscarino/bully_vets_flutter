@@ -37,7 +37,7 @@ List<Widget> _buildCardInformation(Veterinarian model) {
         Icons.contact_phone,
       ),
       onTap: () {
-        launch("tel:"+model.phoneNumber);
+        _launchURL("tel:"+model.phoneNumber); //https://github.com/flutter/flutter/issues/16864
       },
     ),
     Divider(),
@@ -97,3 +97,11 @@ var backgroundGradient = SizedBox(
     ),
   ),
 ));
+
+_launchURL(String url) async {
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
