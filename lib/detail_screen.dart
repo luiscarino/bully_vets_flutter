@@ -8,8 +8,12 @@ class DetailScreenWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return _buildCard(model);
+    return _buildDetailScreen(model);
   }
+}
+
+_buildDetailScreen(Veterinarian model) {
+  return new Column(children: <Widget>[_buildHeader(model), _buildCard(model)]);
 }
 
 _buildCard(Veterinarian model) {
@@ -32,14 +36,17 @@ List<Widget> _buildCardInformation(Veterinarian model) {
         Icons.contact_phone,
       ),
     ),
+    Divider(),
     ListTile(
-      title: Text("${model.city}", style: TextStyle(fontWeight: FontWeight.w500)),
+      title:
+          Text("${model.city}", style: TextStyle(fontWeight: FontWeight.w500)),
       leading: Icon(
         Icons.location_city,
       ),
     ),
+    Divider(),
     ListTile(
-      title: Text("${model.email}"),
+      title: Text(model.email != null ? "${model.email}" : ""),
       leading: Icon(
         Icons.contact_mail,
       ),
@@ -47,12 +54,13 @@ List<Widget> _buildCardInformation(Veterinarian model) {
   ];
 }
 
-Widget _buildHeader(BuildContext context, Veterinarian model) {
+Widget _buildHeader(Veterinarian model) {
   return Stack(
-    alignment: const Alignment(0.0, 0.0),
     children: [
       backgroundGradient,
-      Container(
+      Align(
+        alignment: AlignmentDirectional.bottomCenter,
+        child: Container(
         decoration: BoxDecoration(
           color: Colors.black45,
         ),
@@ -65,19 +73,22 @@ Widget _buildHeader(BuildContext context, Veterinarian model) {
           ),
         ),
       ),
-    ],
+      )],
   );
 }
 
-var backgroundGradient = Container(
+var backgroundGradient = SizedBox(
+    child: Container(
+  height: 310,
   decoration: BoxDecoration(
     gradient: LinearGradient(
-      begin: Alignment.topLeft,
-      end: Alignment(0.8, 0.0), // 10% of the width, so there are ten blinds.
+      begin: Alignment.topCenter,
+      end: Alignment(0.8, 0.0),
+      // 10% of the width, so there are ten blinds.
       colors: [
         const Color(0xFFFFFFEE),
         const Color(0xFF999999)
       ], // whitish to gray
     ),
   ),
-);
+));
