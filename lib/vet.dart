@@ -6,11 +6,12 @@ class Veterinarian {
   final String practiceName;
   final String veterinarian;
   final String phoneNumber;
+  final String email = "example@emailfixme.com"; //FIXME
 
   final DocumentReference documentReference;
 
   Veterinarian.fromMap(Map<String, dynamic> map, {this.documentReference})
-      : assert(map['Veterinarians'] != null),
+      :
         state = map['State'],
         city = map['City'],
         practiceName = map['Practice Name'],
