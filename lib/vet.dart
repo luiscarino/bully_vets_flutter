@@ -7,6 +7,7 @@ class Veterinarian {
   final String veterinarian;
   final String phoneNumber;
   final String email;
+  final String imageUrl;
 
   final DocumentReference documentReference;
 
@@ -17,7 +18,8 @@ class Veterinarian {
         practiceName = map['Practice Name'],
         veterinarian = map['Veterinarians'],
         phoneNumber = map['Phone'],
-        email = map['Email'];
+        email = map['Email'],
+        imageUrl = map['ImageUrl'];
 
   Veterinarian.fromSnapshot(DocumentSnapshot documentSnapshot)
       : this.fromMap(documentSnapshot.data,

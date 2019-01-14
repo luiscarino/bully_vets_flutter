@@ -63,7 +63,7 @@ class _VetListWidgetState extends State<VetListWidget> {
 
     return new Container(
       child: ListTile(
-        title: new Text(model.veterinarian, style: _biggerFont),
+        title: new Text(model.practiceName, style: _biggerFont),
         trailing: new Icon(Icons.navigate_next),
         onTap: () {
           setState(() {
@@ -80,7 +80,9 @@ class _VetListWidgetState extends State<VetListWidget> {
     Navigator.of(context)
         .push(new MaterialPageRoute(builder: (BuildContext context) {
       return new Scaffold(
-        appBar: new AppBar(),
+        appBar: new AppBar(
+          title: new Text(model.practiceName),
+        ),
         body: DetailScreenWidget(model: model),
       );
     }));

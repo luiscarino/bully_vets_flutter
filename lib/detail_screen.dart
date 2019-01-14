@@ -1,6 +1,7 @@
 import 'package:bully_vets_app/vet.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:transparent_image/transparent_image.dart';
 
 class DetailScreenWidget extends StatelessWidget {
   final Veterinarian model;
@@ -19,7 +20,6 @@ _buildDetailScreen(Veterinarian model) {
 
 _buildCard(Veterinarian model) {
   return SizedBox(
-    height: 210,
     child: Card(
       child: Column(
         children: _buildCardInformation(model),
@@ -31,19 +31,26 @@ _buildCard(Veterinarian model) {
 List<Widget> _buildCardInformation(Veterinarian model) {
   return [
     ListTile(
+        title: Text("${model.veterinarian}",
+            style: TextStyle(fontWeight: FontWeight.w500)),
+        leading: Icon(
+          Icons.person,
+        )),
+    Divider(),
+    ListTile(
       title: Text("${model.phoneNumber}",
           style: TextStyle(fontWeight: FontWeight.w500)),
       leading: Icon(
         Icons.contact_phone,
       ),
       onTap: () {
-        _launchURL("tel:"+model.phoneNumber); //https://github.com/flutter/flutter/issues/16864
+        _launchURL("tel:" + model.phoneNumber); //https://github.com/flutter/flutter/issues/16864
       },
     ),
     Divider(),
     ListTile(
-      title:
-          Text("${model.city}, ${model.state}", style: TextStyle(fontWeight: FontWeight.w500)),
+      title: Text("${model.city}, ${model.state}",
+          style: TextStyle(fontWeight: FontWeight.w500)),
       leading: Icon(
         Icons.location_city,
       ),
@@ -61,24 +68,15 @@ List<Widget> _buildCardInformation(Veterinarian model) {
 Widget _buildHeader(Veterinarian model) {
   return Stack(
     children: [
-      backgroundGradient,
-      Align(
-        alignment: AlignmentDirectional.bottomCenter,
-        child: Container(
-          decoration: BoxDecoration(
-            color: Colors.black45,
-          ),
-          child: Text(
-            model.veterinarian,
-            style: TextStyle(
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              color: Colors.white,
-            ),
-          ),
-        ),
-      )
+      Center(child: CircularProgressIndicator()),
+      _buildImageHeader(model.imageUrl),
     ],
+  );
+}
+
+Widget _buildImageHeader(String url) {
+  return SizedBox(
+    child: FadeInImage.memoryNetwork(placeholder: kTransparentImage, image: url),
   );
 }
 
