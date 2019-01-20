@@ -15,7 +15,9 @@ class DetailScreenWidget extends StatelessWidget {
 }
 
 _buildDetailScreen(Veterinarian model) {
-  return new Column(children: <Widget>[_buildHeader(model), _buildCard(model)]);
+  return new ListView(
+    children: <Widget>[_buildHeader(model), _buildCard(model)],
+  );
 }
 
 _buildCard(Veterinarian model) {
