@@ -4,1728 +4,1973 @@ final dummySnapshot = [
     "City": "Anchorage",
     "Practice Name": "Alaska Vetrinary Clinic",
     "Veterinarians": "Dr. G Wooldridge",
-    "Phone #": "(907)258-6699"
+    "Phone": "(907)258-6699",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AK",
     "City": "Anchorage",
     "Practice Name": "Dr. Gaarder",
     "Veterinarians": "Dr. Gaarder",
-    "Phone #": "(907) 258-3937"
+    "Phone": "(907) 258-3937",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AK",
     "City": "Chugiak",
     "Practice Name": "Bering Sea Animal Clinic",
     "Veterinarians": "Dr. Bob Sept, DVM",
-    "Phone #": "907-688-6578"
+    "Phone": "907-688-6578",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AK",
     "City": "Fairbanks",
     "Practice Name": "Chena Ridge Veterinary Clinic",
     "Veterinarians": "Dr Jean Battig, DVM",
-    "Phone #": "(907) 479-0001"
+    "Phone": "(907) 479-0001",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AL",
     "City": "Birmingham",
     "Practice Name": "Galleria Animal Clinic",
     "Veterinarians": "Allen Borden, DVM",
-    "Phone #": "205.987.7297"
+    "Phone": "205.987.7297",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AL",
     "City": "Daphne",
     "Practice Name": "Highland Animal Hospital",
     "Veterinarians": "Dr. Albert Corte",
-    "Phone #": "(251)626-2653"
+    "Phone": "(251)626-2653",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AL",
     "City": "Florence",
     "Practice Name": "Helton Plaza Veterinary Hospital",
     "Veterinarians": "Dan M. Whitlow, DVM",
-    "Phone #": "256-767-0150"
+    "Phone": "256-767-0150",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AL",
     "City": "Mobile",
     "Practice Name": "Beltline Animal Hospital",
     "Veterinarians": "Dr. John B. Symes",
-    "Phone #": "(251) 343-7110"
+    "Phone": "(251) 343-7110",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AL",
     "City": "Mobile",
     "Practice Name": "Village Animal Clinic PC",
     "Veterinarians": "Roxy J Leslie",
-    "Phone #": "2516616189"
+    "Phone": "2516616189",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AL",
     "City": "Montgomery",
     "Practice Name": "Golden Animal Hospital",
     "Veterinarians": "Dr. Tina Hays",
-    "Phone #": "334-279-7387"
+    "Phone": "334-279-7387",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AR",
     "City": "Beebe",
     "Practice Name": "Beebe Veterinary Hospital",
     "Veterinarians": "Gary Winseck",
-    "Phone #": "501-882-7437"
+    "Phone": "501-882-7437",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AR",
     "City": "BERRYVILLE",
     "Practice Name": "FAMILY VET CLINIC",
     "Veterinarians": "WES RICE",
-    "Phone #": "870-423-2211"
+    "Phone": "870-423-2211",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AR",
     "City": "Fayetteville",
     "Practice Name": "Animal Medical Clinic",
     "Veterinarians": "Michael P.Mohler, DVM",
-    "Phone #": "479-521-5220"
+    "Phone": "479-521-5220",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AR",
     "City": "Greenwood",
     "Practice Name": "South County Animal Hospital",
     "Veterinarians": "Dr.Mark Sharp,Dr. Leslie Block and Dr.Zachary Phil",
-    "Phone #": "479-996-6095"
+    "Phone": "479-996-6095",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AR",
     "City": "Greenwood",
     "Practice Name": "South County Anmial Clinic",
     "Veterinarians": "Dr. Mark Sharp",
-    "Phone #": ""
+    "Phone": "",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "AR",
     "City": "Vilonia",
     "Practice Name": "Vilonia Animal Clinic",
     "Veterinarians": "Dr.Chris Gentry",
-    "Phone #": "501-796-8400"
+    "Phone": "501-796-8400",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Anaheim",
     "Practice Name": "Brookhurst Animal Medical Center",
     "Veterinarians": "Dr. Carlos López",
-    "Phone #": "714-766-7387"
+    "Phone": "714-766-7387",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Fairfield",
     "Practice Name": "Barney and Russum Animal Clinic",
     "Veterinarians": "Dr. Mack Barney",
-    "Phone #": "707-426-1761"
+    "Phone": "707-426-1761",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Folsom",
     "Practice Name": "Blue Ravine Animal Hospital",
     "Veterinarians": "Dr. Jennifer Sweet",
-    "Phone #": "916-984-0990"
+    "Phone": "916-984-0990",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Goleta",
     "Practice Name": "La Concepcion Animal Hospital",
     "Veterinarians": "Dr. Joseph Dalo",
-    "Phone #": "805-685-4513"
+    "Phone": "805-685-4513",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Goleta",
     "Practice Name": "La Concepcion Animal Hospital",
     "Veterinarians": "Dr. Joseph Dalo",
-    "Phone #": "805-685-4513"
+    "Phone": "805-685-4513",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Laguna Beach",
     "Practice Name": "House Calls Veterinary Service",
     "Veterinarians": "Nancy E. Hauer, DVM, MS",
-    "Phone #": "949-376-4218"
+    "Phone": "949-376-4218",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Laguna Niguel",
     "Practice Name": "South Coast Veterinary Hospital",
     "Veterinarians": "Dr. Edward Song, DVM, CVA",
-    "Phone #": "(949)249-7777"
+    "Phone": "(949)249-7777",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Los Angeles",
     "Practice Name": "Animal Medical Center of Southern California",
     "Veterinarians": "Dr. Alan Schulman / Dr. Susan Holt",
-    "Phone #": "(310) 575-5656"
+    "Phone": "(310) 575-5656",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Mission Viejo",
     "Practice Name": "Alicia Pet Care Center",
     "Veterinarians": "Matthew Wheaton",
-    "Phone #": "949.768.1313"
+    "Phone": "949.768.1313",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Modesto",
     "Practice Name": "Maze Animal Hospital",
     "Veterinarians": "Dr. Michael O'Brien",
-    "Phone #": "(209) 524-9281"
+    "Phone": "(209) 524-9281",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Morgan Hill",
     "Practice Name": "Live Oak Veterinary Hospital",
     "Veterinarians": "Dr Jeanne Haggerty",
-    "Phone #": "408.779.4010"
+    "Phone": "408.779.4010",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Morgan Hill",
     "Practice Name": "Live Oak Veterinary Hospital",
     "Veterinarians": "Dr Mike Switzer",
-    "Phone #": "408.779.4010"
+    "Phone": "408.779.4010",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Morgan Hill",
     "Practice Name": "Live Oak Veterinary Hospital",
     "Veterinarians": "Dr Loreen Clark",
-    "Phone #": "408.779.4010"
+    "Phone": "408.779.4010",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Orange",
     "Practice Name": "Vet4HealthyPet Advanced Medical Care",
     "Veterinarians": "Dr. R. Kraemer",
-    "Phone #": "714.289.9400"
+    "Phone": "714.289.9400",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Rancho Santa Margarita",
     "Practice Name": "Antonio Animal Hospital",
     "Veterinarians": "Dr. Norman Seat",
-    "Phone #": "(949) 858-0949"
+    "Phone": "(949) 858-0949",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Rancho Santa Margarita",
     "Practice Name": "Santa Margarita Animal Care",
     "Veterinarians": "Dr. Ronald Kelpe",
-    "Phone #": "949-858-3181"
+    "Phone": "949-858-3181",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Redondo Beach",
     "Practice Name": "Animal Medical Clinic",
     "Veterinarians": "Kimberly Daffner, DVM",
-    "Phone #": "310-376-0072"
+    "Phone": "310-376-0072",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Riverside",
     "Practice Name": "West Riverside Veterinary Hospital",
     "Veterinarians": "Dr. Butchko",
-    "Phone #": "(951) 686-2242"
+    "Phone": "(951) 686-2242",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CA",
     "City": "Visalia",
     "Practice Name": "Companion Animal Medical Center",
     "Veterinarians": "Dr. Carol Adams",
-    "Phone #": "(559)625-9920"
+    "Phone": "(559)625-9920",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CO",
     "City": "Aurora",
     "Practice Name": "Altura Veterinary Hospital",
     "Veterinarians": "Dorothy Wysaski DVM",
-    "Phone #": "303-366-4496"
+    "Phone": "303-366-4496",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CO",
     "City": "Englewood",
     "Practice Name": "Homestead Animal Hospital",
     "Veterinarians": "Dr. Tom Geiselhardt",
-    "Phone #": "(303)771-7350"
+    "Phone": "(303)771-7350",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CO",
     "City": "THORNTON",
     "Practice Name": "EASTLAKE VETERINARY SERVICES",
     "Veterinarians": "JAY B. TRACY",
-    "Phone #": "303=255-8891"
+    "Phone": "303=255-8891",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "CT",
     "City": "Mystic",
     "Practice Name": "Four Paws Vet Clinic",
     "Veterinarians": "Dr. Cheryl Monteiro",
-    "Phone #": "860-536-4204"
+    "Phone": "860-536-4204",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "DE",
     "City": "Hockessin",
     "Practice Name": "lantana Vet Center",
     "Veterinarians": "Dr Lon Schlussel",
-    "Phone #": "302-234-3275"
+    "Phone": "302-234-3275",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Coral Springs",
     "Practice Name": "Heron Lakes Animal Hospital",
     "Veterinarians": "Dr Abel Lera",
-    "Phone #": "954-344-4911"
+    "Phone": "954-344-4911",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Crystal River",
     "Practice Name": "Citrus Animal Hospital",
     "Veterinarians": "Dr. McGill",
-    "Phone #": "352.795.2131"
+    "Phone": "352.795.2131",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Davie",
     "Practice Name": "Everglades Animal Hospital",
     "Veterinarians": "Dr Eric Weman",
-    "Phone #": "954-680-7730"
+    "Phone": "954-680-7730",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "DeLand",
     "Practice Name": "Countryside Animal Clinic of DeLand",
     "Veterinarians": "Dr. Rachael Thompson",
-    "Phone #": "386-736-9300"
+    "Phone": "386-736-9300",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Deland",
     "Practice Name": "Woodland Animal Clinic",
     "Veterinarians": "Dr. Michael Bailey",
-    "Phone #": "386-734-1763"
+    "Phone": "386-734-1763",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Jacksonville",
     "Practice Name": "San Juan Animal Hospital",
     "Veterinarians": "Dr Robert Fellows",
-    "Phone #": "904-389-7696"
+    "Phone": "904-389-7696",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Lake Alfred",
     "Practice Name": "Lake Alfred Animal Hospital",
     "Veterinarians": "Dr. Mary Mcdaniel",
-    "Phone #": "863-956-5700"
+    "Phone": "863-956-5700",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Lakeland",
     "Practice Name": "Highland Pet Hospital",
     "Veterinarians": "Dr. Beverly Brimacomb",
-    "Phone #": "(863)-644-6634"
+    "Phone": "(863)-644-6634",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Lakeland",
     "Practice Name": "Highland Pet Hospital",
     "Veterinarians": "Dr. Joanie DeHaven",
-    "Phone #": "863-644-6634"
+    "Phone": "863-644-6634",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Lithia",
     "Practice Name": "Alafia River Animal Hospital",
     "Veterinarians": "Dr. Ellen Matheson, DVM",
-    "Phone #": "813-643-1002"
+    "Phone": "813-643-1002",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Miami",
     "Practice Name": "Greenfield Animal Hospital",
     "Veterinarians": "David Greenfield",
-    "Phone #": "3059313825"
+    "Phone": "3059313825",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Miami",
     "Practice Name": "Greenfield animal Hospital",
     "Veterinarians": "David Greenfield",
-    "Phone #": "3059313825"
+    "Phone": "3059313825",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Miami",
     "Practice Name": "Pets Smiles Mobile Veterinarian Services",
     "Veterinarians": "Dr. Johnny Guerrero",
-    "Phone #": "(305)538-0868"
+    "Phone": "(305)538-0868",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Miami",
     "Practice Name": "Sabal Chase Animal Clinic",
     "Veterinarians": "Ian B Kupkee DVM",
-    "Phone #": "305-595-1450"
+    "Phone": "305-595-1450",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Miramar",
     "Practice Name": "Quality Care Animal Hospital",
     "Veterinarians": "Dr. Renato Mendez",
-    "Phone #": "954-964-5557"
+    "Phone": "954-964-5557",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "New Port Richey",
     "Practice Name": "Animal Care Center",
     "Veterinarians": "DR Griffin",
-    "Phone #": "(727)376-7600"
+    "Phone": "(727)376-7600",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Pensacola",
     "Practice Name": "Hillman Veterinary Clinic",
     "Veterinarians": "Dr. Andy Hillman",
-    "Phone #": "(850) 433-2812"
+    "Phone": "(850) 433-2812",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Ponte Vedra Beach",
     "Practice Name": "Hirsch Animal Hospital",
     "Veterinarians": "Dr. Cary Hirsch, DVM",
-    "Phone #": "904-285-0023"
+    "Phone": "904-285-0023",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Port Orange",
     "Practice Name": "Halifax Veterinary Center",
     "Veterinarians": "Amanda Millikan DVM",
-    "Phone #": "(386) 322-0108"
+    "Phone": "(386) 322-0108",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Sarasota",
     "Practice Name": "Animal Medical Clinic",
     "Veterinarians": "Dr Steve Koch",
-    "Phone #": "941-955-0136"
+    "Phone": "941-955-0136",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Sarasota",
     "Practice Name": "Sarasota Veterinary Emergency Hospital",
     "Veterinarians": "Lesleigh Redavid, DVM, DACVECC",
-    "Phone #": "(941) 923-7260"
+    "Phone": "(941) 923-7260",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Spring Hill",
     "Practice Name": "County Line Animal Hospital",
     "Veterinarians": "Dr David MacMahon",
-    "Phone #": "727-856-4485"
+    "Phone": "727-856-4485",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Spring Hill",
     "Practice Name": "Hillside Animal Hospital and Surgery Center",
     "Veterinarians": "William McCoy DVM",
-    "Phone #": "352-688-9911"
+    "Phone": "352-688-9911",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Tampa",
     "Practice Name": "Ehrlich Animal Hospital",
     "Veterinarians": "Dr. Alison Adler",
-    "Phone #": "(813)920-0566"
+    "Phone": "(813)920-0566",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Tampa",
     "Practice Name": "Hyde Park Veterinary Clinic",
     "Veterinarians": "Dr Shelley Harper",
-    "Phone #": "813-259-9698"
+    "Phone": "813-259-9698",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "FL",
     "City": "Tampa",
     "Practice Name": "Keene Veterinary Hospital",
     "Veterinarians": "Dr Terry Keene, Dr Barry Bonnville",
-    "Phone #": "813-962-8499"
+    "Phone": "813-962-8499",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "GA",
     "City": "Bethlehem",
     "Practice Name": "Bethlehem Vetinary Hospital",
     "Veterinarians": "Dr. Jerry Frost, DVM",
-    "Phone #": "770 867-2977"
+    "Phone": "770 867-2977",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "GA",
     "City": "Kingsland",
     "Practice Name": "Integrity Animal Hospital",
     "Veterinarians": "Dr. Don E. Nunn",
-    "Phone #": "912-729-4077"
+    "Phone": "912-729-4077",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "GA",
     "City": "Lavonia",
     "Practice Name": "Lavonia Animal Hospital",
     "Veterinarians": "Dr. Patrick L. Hitchcock, D.V.M.",
-    "Phone #": "(706)356-8116"
+    "Phone": "(706)356-8116",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "GA",
     "City": "Rome",
     "Practice Name": "Animal Medical Center of Rome",
     "Veterinarians": "Melissa Van Meter, DVM",
-    "Phone #": "706-290-9301"
+    "Phone": "706-290-9301",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "GA",
     "City": "Rome",
     "Practice Name": "Animal Medical Center of Rome",
     "Veterinarians": "Melissa Van Meter, DVM",
-    "Phone #": "706-290-9301"
+    "Phone": "706-290-9301",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "GA",
     "City": "Rome",
     "Practice Name": "Culbreth Carr Watson Animal Hospital",
     "Veterinarians": "Dr Jeff Culbreth, Dr Barry Carr, Dr Amy Warren",
-    "Phone #": "(706) 234-9243"
+    "Phone": "(706) 234-9243",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "GA",
     "City": "Statesboro",
     "Practice Name": "Gateway Animal Hospital",
     "Veterinarians": "Dr. Gary Edwards",
-    "Phone #": "(912)681-7387"
+    "Phone": "(912)681-7387",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "GA",
     "City": "Tucker",
     "Practice Name": "Dekalb Animal Hospital",
     "Veterinarians": "Dr Wayne Rush",
-    "Phone #": "(770) 938-3900"
+    "Phone": "(770) 938-3900",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IA",
     "City": "Cedar Falls",
     "Practice Name": "Cedar Valley Veterinary Center",
     "Veterinarians": "Clif Paulsen, DVM",
-    "Phone #": "3192774564"
+    "Phone": "3192774564",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IA",
     "City": "Dubuque",
     "Practice Name": "Colonial Terrace Animal Hospital",
     "Veterinarians": "Dr. James Stark",
-    "Phone #": "563-556-2667"
+    "Phone": "563-556-2667",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IA",
     "City": "Wilton",
     "Practice Name": "Sunset View Animal Hospital",
     "Veterinarians": "Dr. Wayne Budding",
-    "Phone #": "(563)732-2118"
+    "Phone": "(563)732-2118",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IL",
     "City": "Itasca",
     "Practice Name": "Itasca Animal Medical Center",
     "Veterinarians": "Dr. Jeffrey Deeke",
-    "Phone #": "630-773-2040"
+    "Phone": "630-773-2040"
   },
   {
     "State": "IL",
     "City": "Lockport",
     "Practice Name": "All Pets Hospital",
     "Veterinarians": "Paul A. Navin, D.V.M.",
-    "Phone #": "(815)838-0505"
+    "Phone": "(815)838-0505",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IL",
     "City": "Monmouth",
     "Practice Name": "Monmouth Small Animal Hospital",
     "Veterinarians": "Dr. Geoffrey Weech",
-    "Phone #": "309-734-5227"
+    "Phone": "309-734-5227",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IL",
     "City": "South Elgin",
     "Practice Name": "Animal Care Clinic",
     "Veterinarians": "Dr. Adam Conroy",
-    "Phone #": "847-742-5700"
+    "Phone": "847-742-5700",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IL",
     "City": "Woodstock",
     "Practice Name": "Woodstock Veterinary Clinic",
     "Veterinarians": "Dr. Shaw - retired",
-    "Phone #": "(815)338-0132"
+    "Phone": "(815)338-0132",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IN",
     "City": "Auburn",
     "Practice Name": "Auburn Hills Animal Hospital",
     "Veterinarians": "Robert Hargarten, BS, DVM",
-    "Phone #": "(260) 925-5339"
+    "Phone": "(260) 925-5339",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IN",
     "City": "Auburn",
     "Practice Name": "Auburn Hills Animal Hospital",
     "Veterinarians": "David Hargarten, BS, MS, DVM",
-    "Phone #": "(260) 925-5339"
+    "Phone": "(260) 925-5339",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IN",
     "City": "Auburn",
     "Practice Name": "Auburn Hills Animal Hospital",
     "Veterinarians": "Thomas Hitzeman, BS, DVM",
-    "Phone #": "(260) 925-5339"
+    "Phone": "(260) 925-5339",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IN",
     "City": "Fort Wayne",
     "Practice Name": "Allen Veterinary",
     "Veterinarians": "Dr. Edward Rademaker",
-    "Phone #": "(260)744-4121"
+    "Phone": "(260)744-4121",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IN",
     "City": "Franklin",
     "Practice Name": "Briarcrest Animal Hospital",
     "Veterinarians": "David Brichler",
-    "Phone #": "(317)422-9251"
+    "Phone": "(317)422-9251",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IN",
     "City": "Greenwood",
     "Practice Name": "Olive Branch Parke Veterinary Clinic",
     "Veterinarians": "Dr. Anndrea Hatcher",
-    "Phone #": "317-887-8387"
+    "Phone": "317-887-8387",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IN",
     "City": "Knightstown",
     "Practice Name": "Knightstown Veterinary Hospital",
     "Veterinarians": "Dr. James Wilson",
-    "Phone #": "(765) 345-5138"
+    "Phone": "(765) 345-5138",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IN",
     "City": "Valparaiso",
     "Practice Name": "Vale Park Animal Hospital",
     "Veterinarians": "Mary Ann Sheller, DVM",
-    "Phone #": "219-462-5785"
+    "Phone": "219-462-5785",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "IN",
     "City": "West Lafayette",
     "Practice Name": "Pets and Vets as Partners",
     "Veterinarians": "Emily Bowers, DVM",
-    "Phone #": "765-462-7877"
+    "Phone": "765-462-7877",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "KA",
     "City": "Girard",
     "Practice Name": "Mesa Animal Clinic",
     "Veterinarians": "Neil Willard, DVM",
-    "Phone #": "(620) 724-8150"
+    "Phone": "(620) 724-8150",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "KA",
     "City": "Junction City",
     "Practice Name": "Animal Doctor",
     "Veterinarians": "Dr. Jennifer Arneson",
-    "Phone #": "785-238-1510"
+    "Phone": "785-238-1510",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "KS",
     "City": "Mulvane",
     "Practice Name": "Mulvane Animal Clinic",
     "Veterinarians": "Dr. Troy Smith",
-    "Phone #": "316-777-4283"
+    "Phone": "316-777-4283",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "KY",
     "City": "Flemingsburg",
     "Practice Name": "Fleming Regional Animal Care & Surgical Center",
     "Veterinarians": "Dr. Suresh Kampalli, DVM, MS",
-    "Phone #": "606-845-PETS"
+    "Phone": "606-845-PETS",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "KY",
     "City": "Georgetown",
     "Practice Name": "Central Kentucky Veterinary Clinic",
     "Veterinarians": "Dr. Scott Tritsch DVM",
-    "Phone #": "(502)863-0868"
+    "Phone": "(502)863-0868",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "KY",
     "City": "Hopkinsville",
     "Practice Name": "Mansfield Animal Hospital",
     "Veterinarians": "Dr. Michael Johnson",
-    "Phone #": "270-886-9416"
+    "Phone": "270-886-9416",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "KY",
     "City": "Louisville",
     "Practice Name": "Shively Animal Clinic",
     "Veterinarians": "Dr. David Fuchs",
-    "Phone #": "(502) 778-8317"
+    "Phone": "(502) 778-8317",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "KY",
     "City": "Morehead",
     "Practice Name": "Morehead Veterinary Clinic",
     "Veterinarians": "Dr. Anthony Stansbury",
-    "Phone #": "606-780-7387"
+    "Phone": "606-780-7387",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "KY",
     "City": "Owingsville",
     "Practice Name": "Bath Veterinary Clinic",
     "Veterinarians": "Dr. Joe Anderson D.V.M.",
-    "Phone #": "606-674-6692"
+    "Phone": "606-674-6692",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "KY",
     "City": "Owingsville",
     "Practice Name": "Bath Veterinary Clinic",
     "Veterinarians": "Dr. Ben Wilson D.V.M.",
-    "Phone #": "606-674-6692"
+    "Phone": "606-674-6692",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "LA",
     "City": "Crowley",
     "Practice Name": "Acadia Animal Clinic, Inc.",
     "Veterinarians": "Dr. Jeffery Artall",
-    "Phone #": "(337)783-7642"
+    "Phone": "(337)783-7642",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "LA",
     "City": "Lafayette",
     "Practice Name": "Lafayette Veterinary Care Center",
     "Veterinarians": "Dr Andy Plauche",
-    "Phone #": "(337)984-7611"
+    "Phone": "(337)984-7611",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "LA",
     "City": "Lafayette",
     "Practice Name": "Lafayette Veterinary Center",
     "Veterinarians": "Dr Angie Sanders",
-    "Phone #": "337-984-7611"
+    "Phone": "337-984-7611",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MA",
     "City": "Andover",
     "Practice Name": "Andover Animal Hospital",
     "Veterinarians": "Dr Jasmine Keramaty & Dr Hamilton Lincoln",
-    "Phone #": "978-475-3600"
+    "Phone": "978-475-3600",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MA",
     "City": "Needham Heights",
     "Practice Name": "Highland Animal Hospital",
     "Veterinarians": "Jeffrey Giles",
-    "Phone #": "(781)433-0467"
+    "Phone": "(781)433-0467",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MA",
     "City": "Needham Heights",
     "Practice Name": "Highland Animal Hospital",
     "Veterinarians": "Elizabeth Shepherd",
-    "Phone #": "(781)433-0467"
+    "Phone": "(781)433-0467",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MD",
     "City": "Clinton",
     "Practice Name": "Clinton Veterinary Hospital",
     "Veterinarians": "Dr Tammy Colson-Dorsch",
-    "Phone #": "301-868-1180"
+    "Phone": "301-868-1180",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MD",
     "City": "Cockeysville",
     "Practice Name": "Hunt Valley Animal Hospital",
     "Veterinarians": "Dr. Tim Cujdik",
-    "Phone #": "410-527-0800"
+    "Phone": "410-527-0800",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MD",
     "City": "Cockeysville",
     "Practice Name": "Hunt Valley Animal Hospital",
     "Veterinarians": "Dr. Allan Frank",
-    "Phone #": "410-527-0800"
+    "Phone": "410-527-0800",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MD",
     "City": "Kingsville",
     "Practice Name": "Celedrie Veterinary Hospital",
     "Veterinarians": "Dr. C. Garrett",
-    "Phone #": "(410)592-2550"
+    "Phone": "(410)592-2550",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MD",
     "City": "Reisterstown",
     "Practice Name": "Main Street Veterinary Hospital",
     "Veterinarians": "Dr Ed F. Molesworth V.M.D",
-    "Phone #": "(410)526-7500"
+    "Phone": "(410)526-7500",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "ME",
     "City": "Arundel",
     "Practice Name": "York County Veterinary Hospital",
     "Veterinarians": "Clifton E. \"Kip\" Temm II",
-    "Phone #": "207-284-9911"
+    "Phone": "207-284-9911",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "ME",
     "City": "Shapleigh",
     "Practice Name": "Ross Corner Animal Wellness Center",
     "Veterinarians": "Dr. Amanda Rizner",
-    "Phone #": "207 512 4166"
+    "Phone": "207 512 4166",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MI",
     "City": "florissant",
     "Practice Name": "howdershell animal clinic",
     "Veterinarians": "dr. wright",
-    "Phone #": "314-838-3575"
+    "Phone": "314-838-3575",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MI",
     "City": "Flushing",
     "Practice Name": "Riverside",
     "Veterinarians": "Dr. Greg Brown",
-    "Phone #": "810 659 5692"
+    "Phone": "810 659 5692",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MI",
     "City": "Grand Rapids",
     "Practice Name": "Family Friends Veterinary Hospital",
     "Veterinarians": "Randy Carpenter DVM",
-    "Phone #": "616-575-6520"
+    "Phone": "616-575-6520",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MI",
     "City": "Greenville",
     "Practice Name": "Town & Country Animal Clinic",
     "Veterinarians": "Peter K. Blinkilde DVM",
-    "Phone #": "(616) 754-4992"
+    "Phone": "(616) 754-4992",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MI",
     "City": "Lapeer",
     "Practice Name": "Animal Medical Center of Lapeer",
     "Veterinarians": "Rita Taylor DVM",
-    "Phone #": "810-664-6524"
+    "Phone": "810-664-6524",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MI",
     "City": "Sterling Heights",
     "Practice Name": "Animal Clinic of Sterling Heigh",
     "Veterinarians": "Dr. John Wilson",
-    "Phone #": "(586)939-4020"
+    "Phone": "(586)939-4020",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MI",
     "City": "Strafford",
     "Practice Name": "Strafford Veterinary Clinic",
     "Veterinarians": "Kenneth Mallard",
-    "Phone #": "(417) 736-3131"
+    "Phone": "(417) 736-3131",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MI",
     "City": "Washington",
     "Practice Name": "Yale Veterinary Hospital",
     "Veterinarians": "Dr. Wilson",
-    "Phone #": "(586)752-6217"
+    "Phone": "(586)752-6217",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MN",
     "City": "Inver Grove Heights",
     "Practice Name": "Inver Grove Heights Animal Hospotal",
     "Veterinarians": "Dr. Jim & Annie Winsor",
-    "Phone #": "(651)451-4404"
+    "Phone": "(651)451-4404",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MN",
     "City": "Maplewood",
     "Practice Name": "Keller Lake Animal Hospital",
     "Veterinarians": "Dr. John C. Lillie, Jr.",
-    "Phone #": "(651)490-0991"
+    "Phone": "(651)490-0991",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MO",
     "City": "Bolivar",
     "Practice Name": "Countryside Small Animal Clinic",
     "Veterinarians": "Dr. Bruce Hood",
-    "Phone #": "417-326-7297"
+    "Phone": "417-326-7297",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MO",
     "City": "Columbia",
     "Practice Name": "Horton Animal Hospital",
     "Veterinarians": "Susan Sczepanski, DVM",
-    "Phone #": "(573)446-3227"
+    "Phone": "(573)446-3227",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MO",
     "City": "Independence",
     "Practice Name": "Independence Animal Hospital",
     "Veterinarians": "Dr Roger Becker",
-    "Phone #": "816-254-4282"
+    "Phone": "816-254-4282",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MO",
     "City": "Kansas City",
     "Practice Name": "Platte Woods Animal Clinic",
     "Veterinarians": "Dr. Ron Armstrong",
-    "Phone #": "(816)741-8600"
+    "Phone": "(816)741-8600",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MO",
     "City": "Neosho",
     "Practice Name": "Pet Clinic of Neosho",
     "Veterinarians": "Kent Findley",
-    "Phone #": "417-451-1200"
+    "Phone": "417-451-1200",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MO",
     "City": "Strafford",
     "Practice Name": "Strafford Veterinary Clinic",
     "Veterinarians": "Kenneth Mallard, DVM",
-    "Phone #": "(417) 736-3131"
+    "Phone": "(417) 736-3131",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MO",
     "City": "Troy",
     "Practice Name": "Troy Veterinary Clinic",
     "Veterinarians": "Dr. Ron Ragan",
-    "Phone #": "636-528-4534"
+    "Phone": "636-528-4534",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MO",
     "City": "Wentzville",
     "Practice Name": "Wentzville Veterinary Clinic",
     "Veterinarians": "Dr. Ron Ragan",
-    "Phone #": "636-327-6488"
+    "Phone": "636-327-6488",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MS",
     "City": "Brandon",
     "Practice Name": "Hometown Veterinary Services",
     "Veterinarians": "Dr. Rick Kirby",
-    "Phone #": "601-825-1697"
+    "Phone": "601-825-1697",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MS",
     "City": "Dekalb",
     "Practice Name": "Kemper County Animal Clinic",
     "Veterinarians": "Dr. Billy Calvert",
-    "Phone #": "601-743-5904"
+    "Phone": "601-743-5904",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "MS",
     "City": "Quitman",
     "Practice Name": "Clarke County Animal Clinic",
     "Veterinarians": "Dr. Ashley Miller",
-    "Phone #": "601-776-5326"
+    "Phone": "601-776-5326",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NC",
     "City": "Cary",
     "Practice Name": "Kildaire Animal Medical Center",
     "Veterinarians": "John Strasser",
-    "Phone #": "(919)469-8086"
+    "Phone": "(919)469-8086",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NC",
     "City": "Charlotte",
     "Practice Name": "Long Animal Hospital",
     "Veterinarians": "Dr. Richard Killough, Sr",
-    "Phone #": "(704) 523-2996"
+    "Phone": "(704) 523-2996",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NC",
     "City": "Charlotte",
     "Practice Name": "Long Animal Hospital",
     "Veterinarians": "Dr. Brian Killough",
-    "Phone #": "(704) 523-2996"
+    "Phone": "(704) 523-2996",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NC",
     "City": "Charlotte",
     "Practice Name": "Sharon Lakes Animal Hospital (AAHA)",
     "Veterinarians": "Dr. Steve Weaver",
-    "Phone #": "(704) 552-0647"
+    "Phone": "(704) 552-0647",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NC",
     "City": "Clemmons",
     "Practice Name": "Clemmons Veterinary Clinic",
     "Veterinarians": "Pete Gilyard, D.V.M.",
-    "Phone #": "(336)766-8511"
+    "Phone": "(336)766-8511",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NC",
     "City": "Welcome",
     "Practice Name": "North Davidson Veterinary Hospital",
     "Veterinarians": "J.G. Schmunk, DVM",
-    "Phone #": "(336)731-6978"
+    "Phone": "(336)731-6978",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NE",
     "City": "Jersey City",
     "Practice Name": "Jersey City Animal Hospital",
     "Veterinarians": "Dr. Jessica Green",
-    "Phone #": "201-435-6424"
+    "Phone": "201-435-6424",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NE",
     "City": "MULLICA HILL",
     "Practice Name": "DELAWARE VALLEY VETERINARY HOSPITAL",
     "Veterinarians": "DELAWARE VALLEY VETERINARY HOSPITAL",
-    "Phone #": "856-241-1100"
+    "Phone": "856-241-1100",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NH",
     "City": "Hudson",
     "Practice Name": "Lowell Road Veterinary Center",
     "Veterinarians": "Richard McAroy, DVM",
-    "Phone #": "603-882-8825"
+    "Phone": "603-882-8825",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NJ",
     "City": "Hainesport",
     "Practice Name": "Creek's Edge Animal Hospital",
     "Veterinarians": "Dr. Christopher P. Keefe",
-    "Phone #": "(609)702-9939"
+    "Phone": "(609)702-9939",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NJ",
     "City": "Livingston",
     "Practice Name": "Livingston Animal Hospital",
     "Veterinarians": "Dr. DeBiasio/Dr. Weiner",
-    "Phone #": "973-992-8888"
+    "Phone": "973-992-8888",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NJ",
     "City": "Livingston",
     "Practice Name": "Livingston Animal Hospital",
     "Veterinarians": "Dr. Stephen Weiner",
-    "Phone #": "9739928888"
+    "Phone": "9739928888",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NJ",
     "City": "Mantua",
     "Practice Name": "Greenfields Veterinary Associates, LLC",
     "Veterinarians": "Nina Beyer, VMD",
-    "Phone #": "856-848-0020"
+    "Phone": "856-848-0020",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NJ",
     "City": "Maple Shade",
     "Practice Name": "Maple Shade Animal Hospital",
     "Veterinarians": "David Heller DVM",
-    "Phone #": "856-799-8818"
+    "Phone": "856-799-8818",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NJ",
     "City": "Phillipsburg",
     "Practice Name": "Warren Animal Hospital",
     "Veterinarians": "Vincent J. Zaccheo, DVM",
-    "Phone #": "(908) 859-0702"
+    "Phone": "(908) 859-0702",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NJ",
     "City": "Plainfield",
     "Practice Name": "Planifield Animal Hospital",
     "Veterinarians": "Kurt Blaicher",
-    "Phone #": ""
+    "Phone": "",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NJ",
     "City": "Whitehouse Station",
     "Practice Name": "Hunterdon Hills Animal Hospital",
     "Veterinarians": "Charles A. Westfield, III,MS,DVM",
-    "Phone #": "908-534-2321"
+    "Phone": "908-534-2321",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NJ",
     "City": "Woodbury Heights",
     "Practice Name": "Gray Fox Animal Hospital",
     "Veterinarians": "Dr. Lee Spector",
-    "Phone #": "(856)848-7070"
+    "Phone": "(856)848-7070",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NM",
     "City": "Santa Fe",
     "Practice Name": "Smith Veterinary Hospital",
     "Veterinarians": "Dr. Mike Dobesh",
-    "Phone #": "(505)982-4418"
+    "Phone": "(505)982-4418",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NV",
     "City": "Las Vegas",
     "Practice Name": "Craig Road Animal Hospital",
     "Veterinarians": "Jessica Hagstette DVM",
-    "Phone #": "702-645-0331"
+    "Phone": "702-645-0331",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NV",
     "City": "Las Vegas",
     "Practice Name": "Desert Inn Animal Hospital",
     "Veterinarians": "Dr.Benander",
-    "Phone #": "702-732-2210"
+    "Phone": "702-732-2210",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NV",
     "City": "Las Vegas",
     "Practice Name": "Desert Inn Animal Hospital",
     "Veterinarians": "Dr. Dennis Arn",
-    "Phone #": "(702)732-2210"
+    "Phone": "(702)732-2210",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NY",
     "City": "Ballston Spa",
     "Practice Name": "Harmony Veterinary Clinic",
     "Veterinarians": "Dr. Keith Payton, Dr. Stephanie Todd",
-    "Phone #": "518-885-5535"
+    "Phone": "518-885-5535",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NY",
     "City": "Ballston Spa",
     "Practice Name": "Harmony Veterinary Clinic",
     "Veterinarians": "Dr. Keith Payton / Dr. Stephanie Todd",
-    "Phone #": "518-885-5535"
+    "Phone": "518-885-5535",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NY",
     "City": "Farmingdale",
     "Practice Name": "Nassau- Suffolk Veterinary Hospital",
     "Veterinarians": "Dr William Haagenson",
-    "Phone #": "516-694-5930"
+    "Phone": "516-694-5930",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NY",
     "City": "Massapequa",
     "Practice Name": "Massapequa Pet Vet",
     "Veterinarians": "Horowitz, Ned",
-    "Phone #": "516-797-8387"
+    "Phone": "516-797-8387",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NY",
     "City": "massapequa",
     "Practice Name": "pet vet",
     "Veterinarians": "Horowitz, Ned",
-    "Phone #": "516-797-8387"
+    "Phone": "516-797-8387",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NY",
     "City": "Staten Island",
     "Practice Name": "Richmond Valley Veteterinary",
     "Veterinarians": "Dr. Paul W. Kinnear",
-    "Phone #": "(718) 948-3331"
+    "Phone": "(718) 948-3331",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NY",
     "City": "Woodstock",
     "Practice Name": "South Peak Veterinary Hospital",
     "Veterinarians": "Dr. Skip Leighton",
-    "Phone #": "(845) 679-6091"
+    "Phone": "(845) 679-6091",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NY",
     "City": "Woodstock",
     "Practice Name": "South Peak Veterinary Hospital",
     "Veterinarians": "Dr. Skip Leighton",
-    "Phone #": "845-679-6091"
+    "Phone": "845-679-6091",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "NY",
     "City": "Wurtsboro",
     "Practice Name": "Wurtsboro Veterinary Clinic",
     "Veterinarians": "Dr. Linda Tintle",
-    "Phone #": "(845)888-4884"
+    "Phone": "(845)888-4884",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OH",
     "City": "Cincinnati",
     "Practice Name": "The Animal Hospital on Mt. Lookout Square",
     "Veterinarians": "Dr. Paul Levitas",
-    "Phone #": "513-871-8866"
+    "Phone": "513-871-8866",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OH",
     "City": "Columbus",
     "Practice Name": "Beechwold Vet Hosp",
     "Veterinarians": "Dr. Mark McCloskey and Dr. Erik Weisgerber",
-    "Phone #": "(614)268-8666"
+    "Phone": "(614)268-8666",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OH",
     "City": "Harrison",
     "Practice Name": "Harrison Animal Hospital",
     "Veterinarians": "Dr. Lori Kirst",
-    "Phone #": "513-367-4806"
+    "Phone": "513-367-4806",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OH",
     "City": "Kettering",
     "Practice Name": "Bigger Road Veterinary Clinic",
     "Veterinarians": "Alice Sowders, Elizabeth Blakelock",
-    "Phone #": "937-435-3262"
+    "Phone": "937-435-3262",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OH",
     "City": "Madison",
     "Practice Name": "North Ridge Veterinary Hospital",
     "Veterinarians": "Brian Stewart, DVM",
-    "Phone #": "440-428-5166"
+    "Phone": "440-428-5166",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OH",
     "City": "North Ridgeville",
     "Practice Name": "Animal Clinic Northview",
     "Veterinarians": "Dr. Robert Hutchison",
-    "Phone #": "(440)327-8282"
+    "Phone": "(440)327-8282",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OK",
     "City": "Beggs",
     "Practice Name": "Bynum Vet clinic",
     "Veterinarians": "Dr. Gary Bynum",
-    "Phone #": "918-267-4393"
+    "Phone": "918-267-4393",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OK",
     "City": "Jenks",
     "Practice Name": "Oklahoma Veterinary Specialists",
     "Veterinarians": "Steven Hodges",
-    "Phone #": "918-299-4900"
+    "Phone": "918-299-4900",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OK",
     "City": "Newkirk",
     "Practice Name": "North Central Veterinary Service",
     "Veterinarians": "Dr Adam C. Free",
-    "Phone #": "580-362-3366"
+    "Phone": "580-362-3366",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OK",
     "City": "Oklahoma City",
     "Practice Name": "The Pet Hospital #0216",
     "Veterinarians": "Dr. Nancy Rose",
-    "Phone #": "405-682-8387"
+    "Phone": "405-682-8387",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OK",
     "City": "Owasso",
     "Practice Name": "Owasso Vet Hospital",
     "Veterinarians": "Dr. Bryan Spriggs",
-    "Phone #": "918-272-5986"
+    "Phone": "918-272-5986",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OK",
     "City": "Shawnee",
     "Practice Name": "Town & Country Veterinary Clinic",
     "Veterinarians": "Dr. Joel Wilson",
-    "Phone #": "405-275-8400"
+    "Phone": "405-275-8400",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OR",
     "City": "Grants Pass",
     "Practice Name": "Allen Creek Veterinary Clinic",
     "Veterinarians": "Dr. Heidi Bruehner-McKenzie",
-    "Phone #": "541-476-2233"
+    "Phone": "541-476-2233",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OR",
     "City": "Klamath Falls",
     "Practice Name": "Hullman Veterinary Hospital",
     "Veterinarians": "Doug Hullman DVM",
-    "Phone #": "541883-3449"
+    "Phone": "541883-3449",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "OR",
     "City": "Portland",
     "Practice Name": "Raleigh Hills Animal Hospital",
     "Veterinarians": "Dr Rebecca Martin",
-    "Phone #": "503-292-9227"
+    "Phone": "503-292-9227",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "PA",
     "City": "Allentown",
     "Practice Name": "ABE Veterinary Hospital",
     "Veterinarians": "",
-    "Phone #": "(610)820-9224"
+    "Phone": "(610)820-9224",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "PA",
     "City": "Boiling Springs",
     "Practice Name": "Boiling Springs Animal Hospital",
     "Veterinarians": "Dr. Kathy Purcell & Dr. Karen Pitelli",
-    "Phone #": "717-258-4575"
+    "Phone": "717-258-4575",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "PA",
     "City": "Lehighton",
     "Practice Name": "Forest Inn Veterinary Hospital",
     "Veterinarians": "Dr. Betsy Squire",
-    "Phone #": "(610)377-8600"
+    "Phone": "(610)377-8600",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "PA",
     "City": "Lewisburg",
     "Practice Name": "Lewisburg Veterinary Hospital",
     "Veterinarians": "Dr. Crombie and Dr. Martin",
-    "Phone #": "(570)523-3640"
+    "Phone": "(570)523-3640",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "PA",
     "City": "Limerick",
     "Practice Name": "Limerick Veterinary Hospital",
     "Veterinarians": "",
-    "Phone #": "(610)489-2848"
+    "Phone": "(610)489-2848",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "PA",
     "City": "Morgantown",
     "Practice Name": "Country Companion Animal Hospital",
     "Veterinarians": "Carla Narducci, VMD\nScarlette Z. Gotwals, DVM",
-    "Phone #": "610-286-9065"
+    "Phone": "610-286-9065"
   },
   {
     "State": "PA",
     "City": "Shippensburg",
     "Practice Name": "Mountain View Veterinary Services",
     "Veterinarians": "Dr. Amy Hinton DVM",
-    "Phone #": "717-477-8938"
+    "Phone": "717-477-8938",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "PA",
     "City": "Williamsport",
     "Practice Name": "Animal and Avian Hospital",
     "Veterinarians": "Dr. Steve Winton",
-    "Phone #": "(570)323-9431"
+    "Phone": "(570)323-9431",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "PA",
     "City": "Williamsport",
     "Practice Name": "Loyalsock Animal Hospital, Inc.",
     "Veterinarians": "",
-    "Phone #": "(570)326-1709"
+    "Phone": "(570)326-1709",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "RI",
     "City": "Forestdale",
     "Practice Name": "Northern Rhode Island Animal Hospital",
     "Veterinarians": "Dr. Logan",
-    "Phone #": "401-762-2400"
+    "Phone": "401-762-2400",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "SC",
     "City": "Bamberg",
     "Practice Name": "Bamberg Verterinary Clinic",
     "Veterinarians": "Dr James Mitchell",
-    "Phone #": "(803) 245-2415"
+    "Phone": "(803) 245-2415",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "SC",
     "City": "Bamberg",
     "Practice Name": "Bamberg Verterinary Clinic",
     "Veterinarians": "Dr James Mitchell",
-    "Phone #": "(803) 245-2415"
+    "Phone": "(803) 245-2415",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TN",
     "City": "Amarillo",
     "Practice Name": "Canyon Road Animal Hospital",
     "Veterinarians": "Dr. Janice E. Wolf",
-    "Phone #": "806-359-9465"
+    "Phone": "806-359-9465",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TN",
     "City": "Azle",
     "Practice Name": "Eagle Mountain Vet. Clinic",
     "Veterinarians": "Dr. Dustin Fields",
-    "Phone #": "817-444-3289"
+    "Phone": "817-444-3289",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TN",
     "City": "Chattanooga",
     "Practice Name": "Animal Clinic East",
     "Veterinarians": "Anthony (Tony) Ashley",
-    "Phone #": "423-894-8495"
+    "Phone": "423-894-8495",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TN",
     "City": "Chattanooga",
     "Practice Name": "Animal Clinic East",
     "Veterinarians": "James Craven",
-    "Phone #": "4238948495"
+    "Phone": "4238948495",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TN",
     "City": "Columbia",
     "Practice Name": "Maury County Veterinary Hospital",
     "Veterinarians": "C. Farnkie Locklar DVM",
-    "Phone #": "931-388-4750"
+    "Phone": "931-388-4750",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TN",
     "City": "Dallas",
     "Practice Name": "University Animal Hosptial",
     "Veterinarians": "Dr. Nicole Davis",
-    "Phone #": "214-357-5501"
+    "Phone": "214-357-5501",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TN",
     "City": "Spring",
     "Practice Name": "Oak Ridge Animal Clinic",
     "Veterinarians": "Kevin Schneider",
-    "Phone #": "281 364 7194"
+    "Phone": "281 364 7194",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Argyle",
     "Practice Name": "Argyle Veterinary Hospital",
     "Veterinarians": "Ryan Royse, DVM",
-    "Phone #": "940.464.3231"
+    "Phone": "940.464.3231",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Azle",
     "Practice Name": "Eagle Mountain Veterinary Clinic",
     "Veterinarians": "Dr. Dustin Fields",
-    "Phone #": "817-444-3289"
+    "Phone": "817-444-3289",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Colleyville",
     "Practice Name": "Heritage Veterinary Hospital",
     "Veterinarians": "Dr. Winter Trussell",
-    "Phone #": "817-358-0404"
+    "Phone": "817-358-0404",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "DeKalb",
     "Practice Name": "Baird Animal Clinic",
     "Veterinarians": "Dr. Michael Baird",
-    "Phone #": "(903)667-9206"
+    "Phone": "(903)667-9206",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Fort Worth",
     "Practice Name": "Arlington Heights Animal Hospital",
     "Veterinarians": "Billy B. Davis",
-    "Phone #": "817-735-1381"
+    "Phone": "817-735-1381",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Fort Worth",
     "Practice Name": "Cityview Animal Hospital",
     "Veterinarians": "Randy Jones, DVM",
-    "Phone #": "(817)294-7733"
+    "Phone": "(817)294-7733",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Fort Worth",
     "Practice Name": "Summerfields Animal Hospital",
     "Veterinarians": "Karen Metzler, DVM",
-    "Phone #": "817 485-8511"
+    "Phone": "817 485-8511",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Georgetown",
     "Practice Name": "San Gabriel Animal Hospital",
     "Veterinarians": "Dr. Tim Thompson",
-    "Phone #": "(512) 863-7502"
+    "Phone": "(512) 863-7502",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Houston",
     "Practice Name": "Brittmoore Animal Hospital",
     "Veterinarians": "Kit Kampschmidt",
-    "Phone #": "(713)468-8253"
+    "Phone": "(713)468-8253",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Houston",
     "Practice Name": "Suburbia North Animal Hospital",
     "Veterinarians": "Kay McGuire",
-    "Phone #": "(281)443-2362"
+    "Phone": "(281)443-2362",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Longview",
     "Practice Name": "West Loop Animal Hospital",
     "Veterinarians": "Dr. Bart Owens",
-    "Phone #": "903-759-6604"
+    "Phone": "903-759-6604",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Lubbock",
     "Practice Name": "Key Animal Clinic",
     "Veterinarians": "John Key",
-    "Phone #": "806-792-6226"
+    "Phone": "806-792-6226",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Marble Falls",
     "Practice Name": "Hope Animal Clinic",
     "Veterinarians": "Dr. Kevin Lesczynski",
-    "Phone #": "(830) 693-3039"
+    "Phone": "(830) 693-3039",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Melissa",
     "Practice Name": "Animal Hospital of Melissa",
     "Veterinarians": "John Pazora",
-    "Phone #": "972-837-2000"
+    "Phone": "972-837-2000",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Plano",
     "Practice Name": "Humane Animal Hospital",
     "Veterinarians": "Dr John Carver",
-    "Phone #": "(972)578-2553"
+    "Phone": "(972)578-2553",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Prosper",
     "Practice Name": "Total Care Animal Hospital",
     "Veterinarians": "Jason Whitworth, DVM",
-    "Phone #": "(972)347-0900"
+    "Phone": "(972)347-0900",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Rockwall",
     "Practice Name": "Fate Animal Hospital",
     "Veterinarians": "Drs. Darren and Dusty Goucher",
-    "Phone #": "972-722-0066"
+    "Phone": "972-722-0066",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Southlake",
     "Practice Name": "Park Place Pet Hospital",
     "Veterinarians": "Thomas M Holbrook, DVM, Diplomate, ABVP",
-    "Phone #": "817-488-9199"
+    "Phone": "817-488-9199",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Spring",
     "Practice Name": "Oak Ridge Animal Clinic",
     "Veterinarians": "Dr Kevin Schneider",
-    "Phone #": "281 364 7194"
+    "Phone": "281 364 7194",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "The Woodlands",
     "Practice Name": "Bear Branch Anmial Hospital",
     "Veterinarians": "Dr. Keith French",
-    "Phone #": "281-292-5000"
+    "Phone": "281-292-5000",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Tyler",
     "Practice Name": "Shelley Drive Animal Clinic",
     "Veterinarians": "Michael K. Maris",
-    "Phone #": "903 - 561 - 7373"
+    "Phone": "903 - 561 - 7373",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Vidor",
     "Practice Name": "Jordan Veterinary Clinic",
     "Veterinarians": "Billy Jordan",
-    "Phone #": "(409)769-6744"
+    "Phone": "(409)769-6744",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "TX",
     "City": "Wheeler",
     "Practice Name": "Wheeler Vet Clinic",
     "Veterinarians": "LeAnne Hillhouse, DVM",
-    "Phone #": "806.826.5821"
+    "Phone": "806.826.5821",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "UT",
     "City": "Farmington",
     "Practice Name": "Bayview Animal hosp.",
     "Veterinarians": "CLAYNE WHITE",
-    "Phone #": "(801)451-2359"
+    "Phone": "(801)451-2359",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "UT",
     "City": "Jordan River",
     "Practice Name": "Jordan River Animal Hospital",
     "Veterinarians": "Jennifer Nitsche",
-    "Phone #": "801-561-8872"
+    "Phone": "801-561-8872",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "UT",
     "City": "North Salt Lake",
     "Practice Name": "Wilson Veterinary Hosp.",
     "Veterinarians": "Jim H. Wilson",
-    "Phone #": "(801)298-3974"
+    "Phone": "(801)298-3974",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "UT",
     "City": "Salt Lake City",
     "Practice Name": "Willow Creek Vet",
     "Veterinarians": "Garry Durrant",
-    "Phone #": "(801)942-0777"
+    "Phone": "(801)942-0777",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "UT",
     "City": "Sandy",
     "Practice Name": "Willow Creek Pet Center",
     "Veterinarians": "Dr. Aaron Barney",
-    "Phone #": "(801) 942-077"
+    "Phone": "(801) 942-077",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "UT",
     "City": "West Jordan",
     "Practice Name": "Jordan River Animal Hospital",
     "Veterinarians": "Terry Silkman , DVM",
-    "Phone #": "801-561-8872"
+    "Phone": "801-561-8872",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "VA",
     "City": "Amissville",
     "Practice Name": "Clevengers Corner Veterinary Care",
     "Veterinarians": "Dr. Michael Watts",
-    "Phone #": "5404281000"
+    "Phone": "5404281000",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "VA",
     "City": "Amissville",
     "Practice Name": "Clevengers Corner Veterinary Care",
     "Veterinarians": "Dr. Michael Watts",
-    "Phone #": "(540) 428-1000"
+    "Phone": "(540) 428-1000",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "VA",
     "City": "Gainesville",
     "Practice Name": "Companion Animal Clinic",
     "Veterinarians": "Dr. Scott Dove",
-    "Phone #": "703-754-8387"
+    "Phone": "703-754-8387",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "VA",
     "City": "Richmond",
     "Practice Name": "Crossroads West veterinary Center",
     "Veterinarians": "Bart Miller, DVM",
-    "Phone #": "804 935-7200"
+    "Phone": "804 935-7200",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "VA",
     "City": "Virginia Beach",
     "Practice Name": "Bostic Veternary",
     "Veterinarians": "Dr Gail Bostic",
-    "Phone #": "757 497 8492"
+    "Phone": "757 497 8492",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "VA",
     "City": "Virginia Beach",
     "Practice Name": "Bostic Veternary",
     "Veterinarians": "Dr Gail Bostic",
-    "Phone #": "757 497 8492"
+    "Phone": "757 497 8492",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "VA",
     "City": "Virginia Beach",
     "Practice Name": "Sajo Farm Veterinary Hospital",
     "Veterinarians": "P. Jody LaDell, DVM",
-    "Phone #": "757-464-6009"
+    "Phone": "757-464-6009",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "VT",
     "City": "South Burlington",
     "Practice Name": "VCA Brown Animal Hospital",
     "Veterinarians": "Dr. Susan Averill",
-    "Phone #": "802-862-6471"
+    "Phone": "802-862-6471",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "WA",
     "City": "Oak Harbor",
     "Practice Name": "Animal Care & Laser Center",
     "Veterinarians": "Dr. Celina M. Hatt",
-    "Phone #": "(360)679-6796"
+    "Phone": "(360)679-6796",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "WA",
     "City": "Spokane",
     "Practice Name": "Fairwood Animal Hospital",
     "Veterinarians": "Dr. Perger",
-    "Phone #": "(509)467-0566"
+    "Phone": "(509)467-0566",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "WI",
     "City": "Ashland",
     "Practice Name": "Ashland Area Veterinary Clinic",
     "Veterinarians": "Gretchen Wilson",
-    "Phone #": "(715) 682-4585"
+    "Phone": "(715) 682-4585",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "WI",
     "City": "Ashland",
     "Practice Name": "Country Care Pets",
     "Veterinarians": "Dr Gretchen Gerber",
-    "Phone #": "(715)682-8380"
+    "Phone": "(715)682-8380",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "WI",
     "City": "Chippewa Falls",
     "Practice Name": "Kindness Animal Hospital",
     "Veterinarians": "Charlie Arntson",
-    "Phone #": "715-834-9201"
+    "Phone": "715-834-9201",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "WI",
     "City": "Delafield",
     "Practice Name": "Delafield Small Animal Clinic",
     "Veterinarians": "Dr. Darlene K. Osgood and Dr. Hinkel",
-    "Phone #": "(262)646-4660"
+    "Phone": "(262)646-4660",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "WI",
     "City": "Jackson",
     "Practice Name": "Jackson Pet Hospital, LTD",
     "Veterinarians": "Dr. Amy Spaeth",
-    "Phone #": "(262)677-3112"
+    "Phone": "(262)677-3112",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "WI",
     "City": "Lomira",
     "Practice Name": "Brownsville - Lomira Small Animal",
     "Veterinarians": "Dr Greer/ International Canine Semen Bank",
-    "Phone #": "(920) 269.4072"
+    "Phone": "(920) 269.4072",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "WI",
     "City": "Paddock Lake",
     "Practice Name": "Harris Pet Hospital",
     "Veterinarians": "Dr William Harris",
-    "Phone #": "(262)843-4251"
+    "Phone": "(262)843-4251",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   },
   {
     "State": "WV",
     "City": "Hurricane",
     "Practice Name": "Hurricane Animal Hospital",
     "Veterinarians": "Dr. Shawn D Sette",
-    "Phone #": "(304)562-3321"
+    "Phone": "(304)562-3321",
+    "Image Url": "https://cdn.pixabay.com/photo/2018/12/26/09/16/vet-3895477_1280.jpg"
   }
 ];

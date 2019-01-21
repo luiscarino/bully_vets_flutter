@@ -19,7 +19,7 @@ class Veterinarian {
         veterinarian = map['Veterinarians'],
         phoneNumber = map['Phone'],
         email = map['Email'],
-        imageUrl = map['ImageUrl'];
+        imageUrl = map['Image Url'];
 
   Veterinarian.fromSnapshot(DocumentSnapshot documentSnapshot)
       : this.fromMap(documentSnapshot.data,
