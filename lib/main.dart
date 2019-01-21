@@ -1,5 +1,4 @@
 import 'package:bully_vets_app/detail_screen.dart';
-import 'package:bully_vets_app/util.dart';
 import 'package:bully_vets_app/vet.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
@@ -36,12 +35,6 @@ class _VetListWidgetState extends State<VetListWidget> {
     return Scaffold(
         appBar: AppBar(
           title: Text(widget.title),
-          actions: <Widget>[
-            IconButton(
-              icon: Icon(Icons.add),
-              onPressed: populateDatabase,
-            )
-          ],
         ),
         body: _buildBody(context));
   }
