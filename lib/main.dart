@@ -29,13 +29,20 @@ class _VetListWidgetState extends State<VetListWidget> {
   final Set<Veterinarian> _saved = new Set<Veterinarian>();
   final TextStyle _biggerFont = const TextStyle(fontSize: 18.0);
 
+//  var veterinariansMap = new Map<String, List<Veterinarian>>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text(widget.title, textAlign: TextAlign.center,),
+          title: Text(
+            widget.title,
+            textAlign: TextAlign.center,
+          ),
           centerTitle: true,
-          actions: <Widget>[IconButton(icon: Icon(Icons.search), onPressed:(){})],
+          actions: <Widget>[
+            IconButton(icon: Icon(Icons.search), onPressed: () {})
+          ],
         ),
         body: _buildBody(context));
   }
@@ -51,6 +58,7 @@ class _VetListWidgetState extends State<VetListWidget> {
   }
 
   Widget _buildList(BuildContext context, List<DocumentSnapshot> documents) {
+    var map = _createVetMapFromDocuments(documents);
     return new ListView(
       padding: const EdgeInsets.only(top: 20.0),
       children: documents
@@ -88,5 +96,20 @@ class _VetListWidgetState extends State<VetListWidget> {
       );
     }));
   }
-}
 
+  Map<String, List<Veterinarian>> _createVetMapFromDocuments(List<DocumentSnapshot> documents) {
+    var veterinariansMap = new Map<String, List<Veterinarian>>();
+    for (var doc in documents) {
+      final vetModel = Veterinarian.fromSnapshot(doc);
+      if (veterinariansMap.containsKey(vetModel.state)) {
+        var key = vetModel.state;
+        veterinariansMap[key].add(vetModel);
+      } else {
+        List<Veterinarian> list = new List();
+        list.add(vetModel);
+        veterinariansMap.putIfAbsent(vetModel.state, () => list);
+      }
+    }
+    return veterinariansMap;
+  }
+}
