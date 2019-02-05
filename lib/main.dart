@@ -9,11 +9,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Bully Vets',
       theme: ThemeData(
-        primarySwatch: Colors.purple,
+        primaryColor: Colors.white,
       ),
-      home: VetListWidget(title: "Bully Vets"),
+      home: VetListWidget(title: "Bulldog Veterinarians \nDirectory"),
     );
   }
 }
@@ -34,7 +33,9 @@ class _VetListWidgetState extends State<VetListWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text(widget.title),
+          title: Text(widget.title, textAlign: TextAlign.center,),
+          centerTitle: true,
+          actions: <Widget>[IconButton(icon: Icon(Icons.search), onPressed:(){})],
         ),
         body: _buildBody(context));
   }
