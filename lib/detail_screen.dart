@@ -1,10 +1,10 @@
-import 'package:bully_vets_app/vet.dart';
+import 'package:bully_vets_app/VeterinarianListModel.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:transparent_image/transparent_image.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class DetailScreenWidget extends StatelessWidget {
-  final Veterinarian model;
+  final VeterinarianListModel model;
 
   DetailScreenWidget({Key key, @required this.model}) : super(key: key);
 
@@ -14,13 +14,13 @@ class DetailScreenWidget extends StatelessWidget {
   }
 }
 
-_buildDetailScreen(Veterinarian model) {
+_buildDetailScreen(VeterinarianListModel model) {
   return new ListView(
     children: <Widget>[_buildHeader(model), _buildCard(model)],
   );
 }
 
-_buildCard(Veterinarian model) {
+_buildCard(VeterinarianListModel model) {
   return SizedBox(
     child: Card(
       child: Column(
@@ -30,7 +30,7 @@ _buildCard(Veterinarian model) {
   );
 }
 
-List<Widget> _buildCardInformation(Veterinarian model) {
+List<Widget> _buildCardInformation(VeterinarianListModel model) {
   return [
     ListTile(
         title: Text("${model.veterinarian}",
@@ -67,7 +67,7 @@ List<Widget> _buildCardInformation(Veterinarian model) {
   ];
 }
 
-Widget _buildHeader(Veterinarian model) {
+Widget _buildHeader(VeterinarianListModel model) {
   return Stack(
     children: [
       Center(child: CircularProgressIndicator()),

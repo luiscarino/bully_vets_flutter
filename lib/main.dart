@@ -1,3 +1,4 @@
+import 'package:bully_vets_app/VeterinarianListModel.dart';
 import 'package:bully_vets_app/detail_screen.dart';
 import 'package:bully_vets_app/vet.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.white,
       ),
-      home: VetListWidget(title: "Bulldog Veterinarians \nDirectory"),
+      home: VetListWidget(title: "Bulldog Vets Directory"),
     );
   }
 }
@@ -26,8 +27,8 @@ class VetListWidget extends StatefulWidget {
 }
 
 class _VetListWidgetState extends State<VetListWidget> {
-  final Set<Veterinarian> _saved = new Set<Veterinarian>();
   final TextStyle _biggerFont = const TextStyle(fontSize: 18.0);
+  final TextStyle _headerFont = const TextStyle(fontSize: 14.0);
 
 //  var veterinariansMap = new Map<String, List<Veterinarian>>();
 
@@ -37,12 +38,11 @@ class _VetListWidgetState extends State<VetListWidget> {
         appBar: AppBar(
           title: Text(
             widget.title,
-            textAlign: TextAlign.center,
           ),
           centerTitle: true,
-          actions: <Widget>[
-            IconButton(icon: Icon(Icons.search), onPressed: () {})
-          ],
+//          actions: <Widget>[
+//            IconButton(icon: Icon(Icons.search), onPressed: () {})
+//          ],
         ),
         body: _buildBody(context));
   }
@@ -59,33 +59,45 @@ class _VetListWidgetState extends State<VetListWidget> {
 
   Widget _buildList(BuildContext context, List<DocumentSnapshot> documents) {
     var map = _createVetMapFromDocuments(documents);
+    var listWithStates = _createListWithStates(map);
     return new ListView(
-      padding: const EdgeInsets.only(top: 20.0),
-      children: documents
-          .map((document) => _buildListItem(context, document))
+      padding: const EdgeInsets.only(left: 8.0, right: 8.0),
+      children: listWithStates
+          .map((model) => _buildListItem(context, model))
           .toList(),
     );
   }
 
-  Widget _buildListItem(BuildContext context, DocumentSnapshot document) {
-    final model = Veterinarian.fromSnapshot(document);
-
-    return new Container(
-      child: ListTile(
-        title: new Text(model.practiceName, style: _biggerFont),
-        trailing: new Icon(Icons.navigate_next),
-        onTap: () {
-          setState(() {
-            _navigateToDetail(model);
-          });
-        },
-      ),
-      decoration: new BoxDecoration(
-          border: new Border(bottom: new BorderSide(width: 0.1))),
-    );
+  Widget _buildListItem(BuildContext context, VeterinarianListModel model) {
+    if (model.isHeader == null) {
+      return new Container(
+        child: ListTile(
+          leading: const Icon(Icons.local_hospital),
+          title: new Text(model.practiceName, style: _biggerFont),
+          subtitle: new Text(model.city, style: _headerFont),
+          trailing: new Icon(Icons.navigate_next),
+          onTap: () {
+            setState(() {
+              _navigateToDetail(model);
+            });
+          },
+        ),
+        decoration: new BoxDecoration(
+            border: new Border(bottom: new BorderSide(width: 0.1))),
+      );
+    } else {
+      return new Container(
+        child: ListTile(
+          title: new Text(model.isHeader, style: _headerFont),
+        ),
+        decoration: new BoxDecoration(
+//            color: Colors.red,
+            border: new Border(bottom: new BorderSide(width: 0.1))),
+      );
+    }
   }
 
-  void _navigateToDetail(Veterinarian model) {
+  void _navigateToDetail(VeterinarianListModel model) {
     Navigator.of(context)
         .push(new MaterialPageRoute(builder: (BuildContext context) {
       return new Scaffold(
@@ -97,7 +109,8 @@ class _VetListWidgetState extends State<VetListWidget> {
     }));
   }
 
-  Map<String, List<Veterinarian>> _createVetMapFromDocuments(List<DocumentSnapshot> documents) {
+  Map<String, List<Veterinarian>> _createVetMapFromDocuments(
+      List<DocumentSnapshot> documents) {
     var veterinariansMap = new Map<String, List<Veterinarian>>();
     for (var doc in documents) {
       final vetModel = Veterinarian.fromSnapshot(doc);
@@ -111,5 +124,24 @@ class _VetListWidgetState extends State<VetListWidget> {
       }
     }
     return veterinariansMap;
+  }
+
+  List<VeterinarianListModel> _createListWithStates(
+      Map<String, List<Veterinarian>> map) {
+    List<VeterinarianListModel> vets = new List();
+    for (var stateKey in map.keys) {
+      vets.add(new VeterinarianListModel(isHeader: stateKey));
+      map[stateKey].forEach((vetModel) {
+        vets.add(new VeterinarianListModel(
+            state: vetModel.state,
+            city: vetModel.city,
+            practiceName: vetModel.practiceName,
+            veterinarian: vetModel.veterinarian,
+            phoneNumber: vetModel.phoneNumber,
+            email: vetModel.email,
+            imageUrl: vetModel.imageUrl));
+      });
+    }
+    return vets;
   }
 }
