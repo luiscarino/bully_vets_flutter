@@ -21,10 +21,13 @@ _buildDetailScreen(VeterinarianListModel model) {
 }
 
 _buildCard(VeterinarianListModel model) {
-  return SizedBox(
-    child: Card(
-      child: Column(
-        children: _buildCardInformation(model),
+  return Padding(
+    padding: EdgeInsets.all(8.0),
+    child: SizedBox(
+      child: Card(
+        child: Column(
+          children: _buildCardInformation(model),
+        ),
       ),
     ),
   );
@@ -46,7 +49,9 @@ List<Widget> _buildCardInformation(VeterinarianListModel model) {
         Icons.contact_phone,
       ),
       onTap: () {
-        _launchURL("tel:" + model.phoneNumber); //https://github.com/flutter/flutter/issues/16864
+        _launchURL("tel:" +
+            model
+                .phoneNumber); //https://github.com/flutter/flutter/issues/16864
       },
     ),
     Divider(),
@@ -78,7 +83,8 @@ Widget _buildHeader(VeterinarianListModel model) {
 
 Widget _buildImageHeader(String url) {
   return SizedBox(
-    child: FadeInImage.memoryNetwork(placeholder: kTransparentImage, image: url),
+    child:
+        FadeInImage.memoryNetwork(placeholder: kTransparentImage, image: url),
   );
 }
 
