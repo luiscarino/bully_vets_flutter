@@ -12,8 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         primaryColor: Colors.white,
+        fontFamily: 'Raleway',
       ),
-      home: VetListWidget(title: "Bulldog Vets Directory"),
+      home: VetListWidget(title: "Bulldog Vet Finder"),
     );
   }
 }
@@ -27,10 +28,8 @@ class VetListWidget extends StatefulWidget {
 }
 
 class _VetListWidgetState extends State<VetListWidget> {
-  final TextStyle _biggerFont = const TextStyle(fontSize: 18.0);
-  final TextStyle _headerFont = const TextStyle(fontSize: 14.0);
-
-//  var veterinariansMap = new Map<String, List<Veterinarian>>();
+  final TextStyle _biggerFont = const TextStyle(fontSize: 18.0, fontWeight: FontWeight.w700);
+  final TextStyle _headerFont = const TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600);
 
   @override
   Widget build(BuildContext context) {
@@ -130,7 +129,10 @@ class _VetListWidgetState extends State<VetListWidget> {
       Map<String, List<Veterinarian>> map) {
     List<VeterinarianListModel> vets = new List();
     for (var stateKey in map.keys) {
-      vets.add(new VeterinarianListModel(isHeader: stateKey));
+      vets.add(new VeterinarianListModel(
+          isHeader: US_STATES.containsKey(stateKey)
+              ? US_STATES[stateKey]
+              : stateKey));
       map[stateKey].forEach((vetModel) {
         vets.add(new VeterinarianListModel(
             state: vetModel.state,
@@ -144,4 +146,66 @@ class _VetListWidgetState extends State<VetListWidget> {
     }
     return vets;
   }
+
+  static const Map<String, String> US_STATES = {
+    "AL": "Alabama",
+    "AK": "Alaska",
+    "AS": "American Samoa",
+    "AZ": "Arizona",
+    "AR": "Arkansas",
+    "CA": "California",
+    "CO": "Colorado",
+    "CT": "Connecticut",
+    "DE": "Delaware",
+    "DC": "District Of Columbia",
+    "FM": "Federated States Of Micronesia",
+    "FL": "Florida",
+    "GA": "Georgia",
+    "GU": "Guam",
+    "HI": "Hawaii",
+    "ID": "Idaho",
+    "IL": "Illinois",
+    "IN": "Indiana",
+    "IA": "Iowa",
+    "KS": "Kansas",
+    "KY": "Kentucky",
+    "LA": "Louisiana",
+    "ME": "Maine",
+    "MH": "Marshall Islands",
+    "MD": "Maryland",
+    "MA": "Massachusetts",
+    "MI": "Michigan",
+    "MN": "Minnesota",
+    "MS": "Mississippi",
+    "MO": "Missouri",
+    "MT": "Montana",
+    "NE": "Nebraska",
+    "NV": "Nevada",
+    "NH": "New Hampshire",
+    "NJ": "New Jersey",
+    "NM": "New Mexico",
+    "NY": "New York",
+    "NC": "North Carolina",
+    "ND": "North Dakota",
+    "MP": "Northern Mariana Islands",
+    "OH": "Ohio",
+    "OK": "Oklahoma",
+    "OR": "Oregon",
+    "PW": "Palau",
+    "PA": "Pennsylvania",
+    "PR": "Puerto Rico",
+    "RI": "Rhode Island",
+    "SC": "South Carolina",
+    "SD": "South Dakota",
+    "TN": "Tennessee",
+    "TX": "Texas",
+    "UT": "Utah",
+    "VT": "Vermont",
+    "VI": "Virgin Islands",
+    "VA": "Virginia",
+    "WA": "Washington",
+    "WV": "West Virginia",
+    "WI": "Wisconsin",
+    "WY": "Wyoming"
+  };
 }
