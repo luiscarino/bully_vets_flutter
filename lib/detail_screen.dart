@@ -49,9 +49,7 @@ List<Widget> _buildCardInformation(VeterinarianListModel model) {
         Icons.contact_phone,
       ),
       onTap: () {
-        _launchURL("tel:" +
-            model
-                .phoneNumber); //https://github.com/flutter/flutter/issues/16864
+        _call(model);
       },
     ),
     Divider(),
@@ -73,12 +71,35 @@ List<Widget> _buildCardInformation(VeterinarianListModel model) {
 }
 
 Widget _buildHeader(VeterinarianListModel model) {
-  return Stack(
-    children: [
-      Center(child: CircularProgressIndicator()),
-      _buildImageHeader(model.imageUrl),
-    ],
-  );
+  return new Column(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: <Widget>[
+        new Padding(
+          padding: EdgeInsets.only(top: 16, bottom: 16),
+          child: new Container(
+              width: 120.0,
+              height: 120.0,
+              decoration: new BoxDecoration(
+                  shape: BoxShape.circle,
+                  image: new DecorationImage(
+                      fit: BoxFit.fill,
+                      image: new AssetImage('images/vet_icon.png')))),
+        ),
+        new Padding(
+            padding: EdgeInsets.only(bottom: 16),
+            child: Text(model.veterinarian, textScaleFactor: 1.5)),
+        new Padding(
+            padding: EdgeInsets.only(bottom: 16),
+            child: new Container(
+                width: 40.0,
+                height: 40.0,
+                child:
+                    new IconButton(icon: new Icon(Icons.call), onPressed: null),
+                // implement on press, need to solve issue where its automatically called when launching the screen.
+                decoration: new BoxDecoration(
+                    shape: BoxShape.circle, color: Colors.blue)))
+      ]);
 }
 
 Widget _buildImageHeader(String url) {
@@ -104,7 +125,12 @@ var backgroundGradient = SizedBox(
   ),
 ));
 
+_call(VeterinarianListModel model) {
+  _launchURL("tel:" + model.phoneNumber);
+}
+
 _launchURL(String url) async {
+  //https://github.com/flutter/flutter/issues/16864
   if (await canLaunch(url)) {
     await launch(url);
   } else {
