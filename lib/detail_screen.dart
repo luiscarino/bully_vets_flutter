@@ -36,18 +36,14 @@ _buildCard(VeterinarianListModel model) {
 List<Widget> _buildCardInformation(VeterinarianListModel model) {
   return [
     ListTile(
-        title: Text("${model.veterinarian}",
-            style: TextStyle(fontWeight: FontWeight.w500)),
-        leading: Icon(
-          Icons.person,
-        )),
-    Divider(),
-    ListTile(
       title: Text("${model.phoneNumber}",
           style: TextStyle(fontWeight: FontWeight.w500)),
-      leading: Icon(
-        Icons.contact_phone,
-      ),
+      leading: new Container(
+          width: 35.0,
+          height: 35.0,
+          child: new Icon(Icons.call),
+          decoration:
+              new BoxDecoration(shape: BoxShape.circle, color: Colors.blue)),
       onTap: () {
         _call(model);
       },
@@ -89,16 +85,6 @@ Widget _buildHeader(VeterinarianListModel model) {
         new Padding(
             padding: EdgeInsets.only(bottom: 16),
             child: Text(model.veterinarian, textScaleFactor: 1.5)),
-        new Padding(
-            padding: EdgeInsets.only(bottom: 16),
-            child: new Container(
-                width: 40.0,
-                height: 40.0,
-                child:
-                    new IconButton(icon: new Icon(Icons.call), onPressed: null),
-                // implement on press, need to solve issue where its automatically called when launching the screen.
-                decoration: new BoxDecoration(
-                    shape: BoxShape.circle, color: Colors.blue)))
       ]);
 }
 
