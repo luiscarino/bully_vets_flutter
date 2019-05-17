@@ -22,7 +22,7 @@ void main() {
     await tester.pumpWidget(MyApp());
 
     final finderTitle = find.text("Bulldog Vet Finder");
-    expect(finderTitle, findsOneWidget);˚
+    expect(finderTitle, findsOneWidget);
 
   });
 }
