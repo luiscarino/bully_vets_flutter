@@ -28,8 +28,10 @@ class VetListWidget extends StatefulWidget {
 }
 
 class _VetListWidgetState extends State<VetListWidget> {
-  final TextStyle _biggerFont = const TextStyle(fontSize: 18.0, fontWeight: FontWeight.w700);
-  final TextStyle _headerFont = const TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600);
+  final TextStyle _biggerFont =
+      const TextStyle(fontSize: 18.0, fontWeight: FontWeight.w700);
+  final TextStyle _headerFont =
+      const TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600);
 
   @override
   Widget build(BuildContext context) {
@@ -39,9 +41,6 @@ class _VetListWidgetState extends State<VetListWidget> {
             widget.title,
           ),
           centerTitle: true,
-//          actions: <Widget>[
-//            IconButton(icon: Icon(Icons.search), onPressed: () {})
-//          ],
         ),
         body: _buildBody(context));
   }
