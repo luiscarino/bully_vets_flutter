@@ -89,7 +89,6 @@ class _VetListWidgetState extends State<VetListWidget> {
           title: new Text(model.isHeader, style: _headerFont),
         ),
         decoration: new BoxDecoration(
-//            color: Colors.red,
             border: new Border(bottom: new BorderSide(width: 0.1))),
       );
     }
