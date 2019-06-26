@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.white,
         fontFamily: 'Raleway',
       ),
-      home: VetListWidget(title: "Bulldog Vet Finder"),
+      home: VetListWidget(title: "Bulldog Veterinarians Finder"),
     );
   }
 }
